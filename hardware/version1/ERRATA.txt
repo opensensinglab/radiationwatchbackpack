@@ -1,0 +1,1 @@
+March 5/2017: Only partially tested.  Peak detector appears to be working okay, but holds for a little less time than expected (but still long enough to be read by triggering an interrupt using the external comparator to read the peak detector output with an Arduino ADC).  R15 on the reference voltage divider should be lower than 51k -- replaced with 43.3k, and works okay. 
